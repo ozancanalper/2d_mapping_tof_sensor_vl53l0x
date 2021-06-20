@@ -16,4 +16,5 @@ The software part of our project consists of two stages. The first of these is t
 A GUI has been created in the MATLAB environment for users to perform this mapping process more easily and the project to be more useful. The created GUI is shown in Figure 2.
  ![alt text](https://github.com/ozancanalper/2d_mapping_tof_sensor_vl53l0x/blob/main/2.png)
 Figure 2: GUI of the project
+
 When the Comport Connection button is pressed, the system is made ready for Comport connection. When the start button is pressed, the compport connection is started and the distance data starts to be received from the arduino serial port. These received data are printed on the screen between 0-180 degrees in polar coordinates. The Clear button is for clearing the plotting screen.
