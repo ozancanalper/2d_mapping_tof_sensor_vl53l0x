@@ -1,1 +1,3 @@
 # 2d_mapping_tof_sensor_vl53l0x
+ABSTRACT
+The main purpose of this project is to create a 2D map of a specific area using an infrared ToF sensor. ToF sensors use infrared light to determine depth information. In the software part of the project, motor and sensor controls are made via Arduino IDE. Arduino UNO, servo motor and GY-53 VL53L0X ToF Sensor are used in the hardware part of the project. The data coming from the sensor is transferred to the MATLAB environment by serial port communication. This data is then processed and printed on the screen. With the GUI created in the MATLAB environment, users can easily perform mapping operations.
